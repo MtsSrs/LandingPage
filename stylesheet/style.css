@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0px;
+  background-color: #990761;  
 }
 
 .hero {
@@ -31,7 +32,7 @@ a {
   text-decoration: none;
   color: #fff;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-    0 0 82px #0fa;
+  0 0 82px #0fa;
 }
 
 .logo {
@@ -48,58 +49,143 @@ a {
   57%,
   100% {
     text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #0fa,
-      0 0 80px #0fa, 0 0 90px #0fa, 0 0 100px #0fa, 0 0 150px #0fa;
+    0 0 80px #0fa, 0 0 90px #0fa, 0 0 100px #0fa, 0 0 150px #0fa;
   }
 
   20%,
   24%,
   55% {
-    text-shadow: none;
+  text-shadow: none;
   }
 }
 
-.hero-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    gap: 32px;
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  flex: 1;
+  gap: 32px;
 }
 
-.left-hero-content{
- display: flex;
- justify-content: center;
- align-items: start;
- flex-direction: column;
- max-width: 200px;
-}
+.left-hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  max-width: 200px;
+} 
 
 h1 {
-    font-weight: bold;
-    color: #ff1ddb;
-    font-size: 16px;
-    margin: 0;
-    text-shadow: 0 0 7px #8a2ce2, 0 0 10px #8a2ce2, 0 0 21px #8a2ce2, 0 0 42px #8a2ce2,
-    0 0 82px #8a2ce2;
-  }
-  
-  h2 {
-    font-weight: bold;
-    color:#ff00ff;
-    font-size: 8px;
-    text-shadow: 0 0 7px #8a2ce2, 0 0 10px #8a2ce2, 0 0 21px #8a2ce2, 0 0 42px #8a2ce2,
-    0 0 82px #8a2ce2;
-  }
-
-button{
-    color: white;
-    border-color: #8a2ce2;
-    border-radius: 25px;
-    background-image: linear-gradient(#000000, #670542, #990761);
-    text-shadow: 0 0 7px #8a2ce2, 0 0 10px #8a2ce2, 0 0 21px #8a2ce2, 0 0 42px #8a2ce2,
-    0 0 82px #8a2ce2;
+  font-weight: bold;
+  color: #ff1ddb;
+  font-size: 24px;
+  margin: 0;
+  text-shadow: 0 0 7px #8a2ce2, 0 0 10px #8a2ce2, 0 0 21px #8a2ce2,
+  0 0 42px #8a2ce2, 0 0 82px #8a2ce2;
 }
 
-img {
-    border-radius: 25px;
-  }
+h2 {
+  font-weight: bold;
+  color: #ff00ff;
+  font-size: 16px;
+  text-shadow: 0 0 7px #8a2ce2, 0 0 10px #8a2ce2, 0 0 21px #8a2ce2,
+  0 0 42px #8a2ce2, 0 0 82px #8a2ce2;
+}
+
+button {
+  color: white;
+  border-color: #8a2ce2;
+  border-radius: 25px;
+  background-image: linear-gradient(#000000, #670542, #990761);
+  text-shadow: 0 0 7px #8a2ce2, 0 0 10px #8a2ce2, 0 0 21px #8a2ce2,
+  0 0 42px #8a2ce2, 0 0 82px #8a2ce2;
+}
+
+img{
+  border-radius: 25px;
+}
+
+.cards {
+  display: flex;
+  border-radius: 25px;
+  border: 1px;
+  border-color: #000000;
+  border-style: solid;
+  height: 250px;
+  padding: 16px;
+  margin-left: 120px;
+  gap: 24px;
+  flex-direction: column;
+  margin-right: 120px;
+  background-image: linear-gradient(#ff00ff, #ff2ec5, #ff3fb0, #ff43ab);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cards-title {
+  display: flex;
+  font-size: 24px;
+  justify-content: center;
+}
+
+.cards-images{
+  display: flex;
+  height: 230px;
+  justify-content: space-around;
+}
+
+.cards-text{
+  display: flex; 
+}
+
+figure{
+  width: 150px;
+  height: 200px;
+  margin: 0px;
+}
+
+figcaption{
+  text-align: center;
+  font-size: medium;
+}
+
+.quote-box{
+  display: flex;
+  background-image: linear-gradient(#990761, #670542, #000000);
+  margin-top: 36px;
+  height: 200px;
+}
+.quote{
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  margin-left: 200px;
+  margin-right: 200px;
+  align-items: center;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+  0 0 82px #0fa;
+}
+.side-text{
+  display: flex;
+  font-size: 16px;
+  margin-left: auto;
+  margin-top: 0px;
+}
+
+p{
+  margin-bottom: 0px;
+  text-align: justify;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+  0 0 82px #0fa;
+  height: 100px;
+}
